@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            background-color: #b3cdd1;
+            background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+        }
+.user{
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: mediumpurple;
+    position: absolute;
+    top: 140px;
+}
+.link{
+    position: absolute;
+    width: 700px;
+    height: 60px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 1.3em;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+.link:hover{
+    background: white;
+    color: black;
+    border-color: gray;
+}
+.link1{
+    top: 200px;
+}
+.link2{
+    top: 300px;
+}.link3{
+    top: 400px;
+}.link4{
+    top: 500px;
+}
+.link5{
+    top: 600px;
+}
+.link6{
+    top: 700px;
+}.link7{
+    top: 800px;
+}.link8{
+    top: 900px;
+}
+@media screen and (max-width:700px) {
+    .link{
+        width: 80%;
+        margin: auto;
+    }
+    
+}
+    </style>
+</head>
+<body>
+    <div class="user">
+        <img src="./user.png" alt="">
+    </div>
+    <h3 class="text">@Front-ender</h3>
+    <a href="https://www.facebook.com/" class="link link1" target="_blank">My facebook</a>
+    <a href="https://www.Instagram.com/" class="link link2" target="_blank">Follow me on IG</a>
+    <a href="https://www.twitter.com/" class="link link3" target="_blank">Here's my twitter</a>
+</body>
+</html>
